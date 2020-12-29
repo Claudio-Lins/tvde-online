@@ -1,5 +1,11 @@
+
+import Menu from '../components/Menu';
+
 function Contacto() {
-    return <div>Contacto!</div>
+    return <div>
+        <Menu />
+        Contacto!
+      </div>
   }
   
   export default Contacto

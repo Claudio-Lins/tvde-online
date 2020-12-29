@@ -1,7 +1,9 @@
-
+import Menu from '../components/Menu';
 
 function HomePage() {
-    return <div>Welcome to Next.js!</div>
+    return <div>
+        <Menu />
+    </div>
   }
   
   export default HomePage

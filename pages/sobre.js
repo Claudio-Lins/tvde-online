@@ -1,5 +1,10 @@
+
+import Menu from '../components/Menu';
+
 function Sobre() {
-    return <div>Sobre!</div>
+    return <div>
+        <Menu />
+    </div>
   }
   
   export default Sobre
