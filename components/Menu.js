@@ -11,7 +11,8 @@ import {
   DropdownToggle,
   DropdownMenu,
   DropdownItem,
-  NavbarText
+  NavbarText,
+  Container
 } from 'reactstrap';
 
 
@@ -21,29 +22,31 @@ const Menu = () => {
     const toggle = () => setIsOpen(!isOpen);
   
     return (
-      <div>
-        <Navbar color="dark" dark expand="md">
-          <NavbarBrand href="/">LinsTur</NavbarBrand>
-          <NavbarToggler onClick={toggle} />
-          <Collapse isOpen={isOpen} navbar>
-            <Nav className="mr-auto" navbar>
-              
-              <NavItem>
-                <NavLink href="/">Home</NavLink>
-              </NavItem>
-              
-              <NavItem>
-                <NavLink href="/sobre">Sobre</NavLink>
-              </NavItem>
+        <div>
+          <Navbar color="primary" dark expand="md">
+            <Container>
+            <NavbarBrand href="/">LinsTur</NavbarBrand>
+            <NavbarToggler onClick={toggle} />
+            <Collapse isOpen={isOpen} navbar>
+              <Nav className="mr-auto" navbar>
+                
+                <NavItem>
+                  <NavLink href="/">Home</NavLink>
+                </NavItem>
+                
+                <NavItem>
+                  <NavLink href="/sobre">Sobre</NavLink>
+                </NavItem>
 
-              <NavItem>
-                <NavLink href="/contacto">Contacto</NavLink>
-              </NavItem>
+                <NavItem>
+                  <NavLink href="/contacto">Contacto</NavLink>
+                </NavItem>
 
-            </Nav>
-          </Collapse>
-        </Navbar>
-      </div>
+              </Nav>
+            </Collapse>
+            </Container>
+          </Navbar>
+        </div>
     );
 }
 
