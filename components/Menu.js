@@ -43,6 +43,10 @@ const Menu = () => {
                 </NavItem>
 
                 <NavItem>
+                  <NavLink href="/resumo">Resumo</NavLink>
+                </NavItem>
+
+                <NavItem>
                   <NavLink href="/login">Login</NavLink>
                 </NavItem>
 
