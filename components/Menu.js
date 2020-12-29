@@ -42,6 +42,10 @@ const Menu = () => {
                   <NavLink href="/contacto">Contacto</NavLink>
                 </NavItem>
 
+                <NavItem>
+                  <NavLink href="/login">Login</NavLink>
+                </NavItem>
+
               </Nav>
             </Collapse>
             </Container>
