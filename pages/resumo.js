@@ -1,5 +1,5 @@
 import React from 'react';
-import { Container, Jumbotron, Row, Col } from 'reactstrap';
+import { Container, Jumbotron, Row, Col, Button } from 'reactstrap';
 import Head from 'next/head';
 import Menu from '../components/Menu';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -17,7 +17,7 @@ function HomePage() {
                 <Row className="valorDia">
                     <style>{`.valorDia{
                                 width: 250px;
-                                margin: 10px auto;
+                                margin: 40px auto;
                                 border-radius: 15px;
                                 padding-top: 30px;
                                 padding-bottom: 30px;
@@ -27,8 +27,16 @@ function HomePage() {
                             }`}</style>
                 <Col sm="12" md={{ size: 6, offset: 3 }}>€ 999</Col>
                 </Row>
-            </Container>
 
+                <Row>
+                    <Col>.col</Col>
+                    <Col>.col</Col>
+                    <Col>.col</Col>
+                    <Col>.col</Col>
+                </Row>
+
+            </Container>
+            <Button color="primary" size="lg" block>€ Entrada</Button>                    
             </div>
   }
   
