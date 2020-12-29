@@ -1,10 +1,23 @@
 import React from 'react';
-import { Container, Jumbotron, Row, Col, Button } from 'reactstrap';
+import {
+    Container, 
+    Button,
+    Row,
+    Col,
+    Card,
+    CardImg,
+    CardText,
+    CardBody,
+    CardTitle,
+    CardSubtitle
+} from 'reactstrap';
+import Image from 'react-bootstrap/Image'
 import Head from 'next/head';
 import Menu from '../components/Menu';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function HomePage() {
+   
     return <div>
                 <Head>
                     <title>LinsTur - Controle TVDE</title>
@@ -29,15 +42,25 @@ function HomePage() {
                 </Row>
 
                 <Row>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
-                    <Col>.col</Col>
+                    <Col>
+                    <div>
+                        <Card>
+                            <CardImg top width="10%" src="Bolt_logo.png" alt="Logo Bolt" />
+                            <CardBody>
+                            <CardText>€</CardText>
+                            </CardBody>
+                        </Card>
+                    </div>
+                    </Col>
+                    <Col>UBER</Col>
+                    <Col>FreeNow</Col>
+                    <Col>Ca$h</Col>
                 </Row>
 
             </Container>
             <Button color="primary" size="lg" block>€ Entrada</Button>                    
             </div>
+
   }
-  
-  export default HomePage
+
+  export default HomePage;
