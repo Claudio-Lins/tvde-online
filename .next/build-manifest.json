@@ -17,6 +17,8 @@
     "/": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/chunks/pages/index.js"
     ],
     "/_app": [
@@ -32,11 +34,15 @@
     "/contacto": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/chunks/pages/contacto.js"
     ],
     "/sobre": [
       "static/chunks/main.js",
       "static/chunks/webpack.js",
+      "static/css/styles.chunk.css",
+      "static/chunks/styles.js",
       "static/chunks/pages/sobre.js"
     ]
   },
