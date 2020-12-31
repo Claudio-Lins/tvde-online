@@ -28,30 +28,30 @@ function HomePage() {
                 </Head>
                 <Menu />
             <Jumbotron fluid className="totalDia">
-            <style>{`.totalDia{
+                <style>{`.totalDia{
                         margin: 20px auto;
                         padding-bottom: 30px;
                         background-color: #000;
                         color: #fff;
                         font-size: 24pt;
-            }`}</style>
+                }`}</style>
                 <Container className="text-center">
                     <h1 className='display-2'>€ 999</h1>
                     <p className='lead'>Total dia</p>
                 </Container>    
             </Jumbotron>
-
-            <Container fluid className="text-center">
-                <Row>
-                  <Col>
-                    01
-                  </Col>
-                  <Col>.col</Col>
-                  <Col>.col</Col>
-                  <Col>.col</Col>
-                </Row>
-            </Container>
-
+            <Jumbotron>
+                <Container fluid className="text-center">
+                    <Row>
+                    <Col>
+                        01
+                    </Col>
+                    <Col>.col</Col>
+                    <Col>.col</Col>
+                    <Col>.col</Col>
+                    </Row>
+                </Container>
+            </Jumbotron>   
         </div>
     )
   }

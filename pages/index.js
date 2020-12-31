@@ -16,9 +16,10 @@ function HomePage() {
 <style>{`.servicos{
     padding-top: 80px;
     padding-bottom: 80px;
-    background-color: #000;
+    background-color: #00f;
     color: #fff;
     margin-bottom: 0rem !important;
+    margin-top: 0rem !important;
 }`}</style>
                     <Container className="text-center">
                         <h1 className="display-4">Serviços da Empresa</h1>
