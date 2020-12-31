@@ -41,30 +41,16 @@ function HomePage() {
                 </Container>    
             </Jumbotron>
 
-             <div class="row">
-        <Container fluid className="text-center">
-      <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">50x50</text></svg>
-        <h3>Uber</h3>
-      </div>
-
-      <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">50x50</text></svg>
-        <h3>Bolt</h3>
-        </div>
-
-      <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns7="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">50x50</text></svg>
-        <h3>FreeNow</h3>
-      </div>
-
-      <div class="col-lg-3">
-        <svg class="bd-placeholder-img rounded-circle" width="50" height="50" xmlns7="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">50x50</text></svg>
-        <h3>Cash</h3>
-      </div>
-      </Container>
-      <hr class="featurette-divider"></hr>
-    </div>     
+            <Container fluid className="text-center">
+                <Row>
+                  <Col>
+                    01
+                  </Col>
+                  <Col>.col</Col>
+                  <Col>.col</Col>
+                  <Col>.col</Col>
+                </Row>
+            </Container>
 
         </div>
     )
